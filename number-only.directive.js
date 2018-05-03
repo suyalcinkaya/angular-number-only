@@ -36,7 +36,7 @@
                     var code = event.keyCode || event.which;
 
                     if(code === 101 || code === 69 || code === 46 || code === 45 || code === 44 || code === 43 || code === 32) {
-                        e.preventDefault();
+                        event.preventDefault();
                     }
                 });
 
